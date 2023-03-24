@@ -9,11 +9,21 @@
     margin:2rem;
 }
 
+@font-face {
+  font-family: ProximaNova;
+  src: url(../fonts/ProximaNova.otf);
+}
+
 .typeface   {
     font-size: 3rem;
 }
 
 #sans-serif-1   {
-    font-family:proxima
+    font-family: ProximaNova;
 }
+
+#sans-serif-2   {
+    font-family:Helvetica, sans-serif;
+}
+
 

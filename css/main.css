@@ -1,0 +1,19 @@
+.colour-palette  {
+  display: flex;
+  flex-wrap: wrap;
+  margin:2rem;
+  background-color: rgb(245, 245, 245);
+}
+
+.colour-palette p{
+    margin:2rem;
+}
+
+.typeface   {
+    font-size: 3rem;
+}
+
+#sans-serif-1   {
+    font-family:proxima
+}
+

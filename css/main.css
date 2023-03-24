@@ -1,3 +1,23 @@
+
+*   {
+    text-decoration: none;
+    margin:0;
+}
+
+h1{
+    margin:1rem;
+}
+
+h2{
+    margin:1rem;
+}
+h3{
+    margin:1rem;
+}
+
+p{
+    margin:2rem;
+}
 .colour-palette  {
   display: flex;
   flex-wrap: wrap;
@@ -16,6 +36,7 @@
 
 .typeface   {
     font-size: 3rem;
+    margin:2rem;
 }
 
 #sans-serif-1   {
@@ -25,5 +46,34 @@
 #sans-serif-2   {
     font-family:Helvetica, sans-serif;
 }
+
+nav   {
+    justify-content:center;
+    align-items: center;
+    align-content:space-between;
+    flex-wrap:wrap;
+    display:flex;
+    width:100%;
+    height:5rem;
+    background-color:#494848;
+    font-size:1.5rem;
+    font-family:ProximaNova;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-content:space-between;
+}
+
+nav a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color:white;
+  margin-left:2rem;
+  margin-top:1.5rem;
+  margin-right:2rem;
+}
+
 
 

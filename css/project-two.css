@@ -100,7 +100,11 @@ nav a:hover{
     margin:2rem;
 }
 .process-2-container .item-2    {
+<<<<<<< HEAD
     max-width:50%;
+=======
+    width:50%;
+>>>>>>> main
 }
 
 
@@ -118,7 +122,11 @@ nav a:hover{
     margin:2rem;
 }
 .process-3-container .item-2    {
+<<<<<<< HEAD
     max-width:50%;
+=======
+    width:50%;
+>>>>>>> main
 }
 
 
@@ -144,6 +152,10 @@ nav a:hover{
 }
 
 .process-1-container .item-2{
+<<<<<<< HEAD
     max-width:65%;
+=======
+    width:65%;
+>>>>>>> main
     margin:2rem;
 }

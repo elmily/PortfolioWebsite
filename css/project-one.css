@@ -1,0 +1,142 @@
+* {
+    text-decoration: none;
+    margin:0;
+    background-color:white;
+    color:black;
+}
+
+h1{
+    margin:1rem;
+
+}
+
+h2{
+    margin-bottom:1rem;
+    margin-top:1rem;
+ 
+}
+h3{
+    margin:1rem;
+}
+
+p{
+    margin-bottom:1rem;
+}
+.colour-palette p{
+    margin:2rem;
+}
+
+@font-face {
+  font-family: ProximaNova;
+  src: url(../fonts/ProximaNova.otf);
+}
+
+.typeface   {
+    font-size: 3rem;
+    margin:2rem;
+}
+
+#sans-serif-1   {
+    font-family: ProximaNova;
+}
+
+#sans-serif-2   {
+    font-family:Helvetica, sans-serif;
+}
+
+nav   {
+    justify-content:flex-end;
+    align-items: center;
+    align-content:space-between;
+    flex-wrap:wrap;
+    display:flex;
+    width:100%;
+    height:5rem;
+    background-color:#ffffff;
+    font-size:1.5rem;
+    font-family:ProximaNova;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-content:space-between;
+}
+
+nav a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  color:rgb(0, 0, 0);
+  margin-left:2rem;
+  margin-top:1.5rem;
+  margin-right:2rem;
+}
+
+nav a:hover{
+    color:#000000;
+}
+
+.analysis-1-container   {
+    display:flex;
+    justify-content:center;
+    align-content:center;
+    row-direction:column;
+}
+
+.process-2-container {
+    display:flex;
+    justify-content:space-around;
+    align-self:flex-start;
+    margin-top:5rem;
+    align-items:center;
+
+}
+
+.process-2-container div{
+    margin:2rem;
+}
+.process-2-container .item-2    {
+    width:50%;
+}
+
+.process-3-container {
+    display:flex;
+    justify-content:space-around;
+    align-self:flex-start;
+    margin-top:5rem;
+    align-items:center;
+
+}
+
+.process-3-container div{
+    margin:2rem;
+}
+.process-3-container .item-2    {
+    width:50%;
+}
+.process-1-container {
+    display:flex;
+    justify-content:center;
+    align-self:flex-start;
+    margin-top:5rem;
+    flex-direction:column;
+    align-items:center;
+    margin:3rem;
+}
+
+.process-1-container {
+    display:flex;
+    justify-content:center;
+    align-self:flex-start;
+    margin-top:5rem;
+    flex-direction:column;
+    align-items:center;
+    margin:3rem;
+
+}
+
+.process-1-container .item-2{
+    width:65%;
+    margin:2rem;
+}

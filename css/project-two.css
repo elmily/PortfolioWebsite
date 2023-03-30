@@ -84,9 +84,6 @@ nav a:hover{
     row-direction:column;
 }
 
-
-
-
 .process-2-container {
     display:flex;
     justify-content:space-around;
@@ -100,14 +97,8 @@ nav a:hover{
     margin:2rem;
 }
 .process-2-container .item-2    {
-<<<<<<< HEAD
-    max-width:50%;
-=======
     width:50%;
->>>>>>> main
 }
-
-
 
 .process-3-container {
     display:flex;
@@ -122,14 +113,8 @@ nav a:hover{
     margin:2rem;
 }
 .process-3-container .item-2    {
-<<<<<<< HEAD
-    max-width:50%;
-=======
     width:50%;
->>>>>>> main
 }
-
-
 .process-1-container {
     display:flex;
     justify-content:center;
@@ -152,10 +137,6 @@ nav a:hover{
 }
 
 .process-1-container .item-2{
-<<<<<<< HEAD
-    max-width:65%;
-=======
     width:65%;
->>>>>>> main
     margin:2rem;
 }

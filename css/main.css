@@ -58,6 +58,7 @@ nav   {
     align-content:space-between;
     flex-wrap:wrap;
     display:flex;
+    
     width:100%;
     height:5rem;
     background-color:#000000;
@@ -106,7 +107,7 @@ nav a:hover{
 .introduction-container .group-2{
     align-self:flex-end;
     flex:1;
-    width:33%;
+    max-width:33%;
     margin-left:4rem;
 }
 
@@ -181,6 +182,13 @@ margin-bottom:4rem;
     justify-content: center;
     height:12rem;
   }
+
+  .introduction-container .group-2{
+    align-self:flex-end;
+    flex:1;
+    max-width:100%;
+    margin-left:4rem;
+}
 }
 
 

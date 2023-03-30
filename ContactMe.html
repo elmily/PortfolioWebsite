@@ -11,12 +11,12 @@
     <header>
         <nav>        
             <ul>
-                <a href = "portfolio.html">Home</a> <!--home page, and introduction-->
-                <a href="  archives.html">Archives</a> <!--my work-->
+                <a href = "portfolio.html">HOME</a> <!--home page, and introduction-->
+                <a href="  archives.html">ARCHIVES</a> <!--my work-->
                 <!--a href = "#AboutMe.html">About Me</a> about me my interests-->
                 <!--a href = "#Projects.html">Projects</a> ongoing-->
                 <!--<a href = "#Process.html">Process</a> iterative process-->
-                <a href = "contact.html">Contact Me</a> <!--Contact Information-->
+                <a href = "contact.html">CONTACT ME</a> <!--Contact Information-->
             </ul>
           </nav>
     </header>
@@ -25,19 +25,28 @@
 
           <section class="contact-Me">
               <div class = "contact-me-container">
-                  <div "group-1">
-                  <h1>LET'S TALK.</h1>
-                </div>    
-                 <div "group-2">
-                    <div class = "item-1">
-                        <a href = "contact.html">Email</a> <!--Contact Information-->
-                    </div>
-                    <div class = "item-2">
-                      <a href = "contact.html">Linkedln</a> <!--Contact Information-->
-                    </div>
-                    <div class = "item-3">
-                      <a href = "contact.html">Instagram</a> <!--Contact Information-->
-                    </div>
+                  <div class = "item-1">
+                    <label for="fname">FIRST NAME</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                    <label for="lname">LAST NAME</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                    <label for="country">COUNTRY</label>
+                    <select id="country" name="country">
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                    <option value="canada">Singapore</option>
+                    <option value="canada">Taiwan</option>
+                    </select>
+
+                    <label for="subject">SUBJECT</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." ></textarea>
+
+                    <input type="submit" value="Submit">
+
+                </form>
+            </div>
                 </div>
             </div>
           </section>

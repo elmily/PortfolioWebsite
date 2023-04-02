@@ -1,0 +1,166 @@
+/*
+  STYLE GUIDE STYLING 
+  Default styling for the style guide 
+*/
+
+* {
+  font-family: "Times New Roman"; /* this was drawn from resource: https://stackoverflow.com/questions/3942254/how-to-specify-font-attributes-for-all-elements-on-an-html-web-page */
+  box-sizing:border-box;
+}
+
+body {
+  font-family: sans-serif;
+  padding: 2rem;
+}
+
+.element {
+  padding-bottom: 2rem;
+  border-top-width: 0.15rem;
+  border-top-style: solid;
+  border-top-color: black;
+}
+
+a:hover{  /*learned from prof. Andrew Hawryshkewich in IAT 235*/
+color: brown;
+}
+
+a:focus {
+  color: forestgreen;
+}
+
+a:hover img { /*Reference for styling images: https://www.w3schools.com/css/css3_images.asp    */
+opacity: 50%
+
+ }
+
+a:focus img{
+  border-radius: 50%
+}
+
+h2{ /* Add space between section elements - Reference: IAT 339: Lecture 02*/
+margin-bottom: 1rem;
+}
+
+
+h3 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+h4 {
+  margin-bottom: 0.25rem;
+}
+
+
+p{
+  max-width: 40rem;
+  margin-top: 1rem;
+}
+
+@media (max-width: 40rem){ /* learned from prof. Andrew Hawryshkewich in IAT 235*/
+  p  {
+    max-width: 90%;
+  }
+}
+section {
+  padding: 1.25rem
+}
+
+nav a:hover, nav a:focus {
+  text-decoration: none;
+}
+
+code {
+  background-color: #EEE;
+  padding: 0.5rem;
+  display: block;
+}
+
+form{
+  border: 1px solid #c6c7cc;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 240px;
+}
+ /*Styling for labels and label elements: Reference: https://learn.shayhowe.com/html-css/building-forms/*/
+
+
+/*Added border around the form*/
+ fieldset{
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/*This determines the roundness of the text input*/
+input{
+  border-radius: 0.313rem; /*this is the round-ness of the text-input*/
+  margin:0;
+}
+
+
+/*Added Class: Padding between the content and the border*/
+.name-info  {
+  padding: 1rem 1rem 1rem 1rem
+}
+
+
+/*text styling for labels*/
+.name-info label{
+  color: #395870;
+  display: block;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  margin-top:1rem;
+}
+
+
+/*input focus state*/
+.name-info input:focus{
+background:lightsteelblue;
+}
+
+
+/*input hover state*/
+.name-info input:hover{
+  background:lightgray;
+  }
+  
+/*input styling*/
+.name-info input{
+  background: #fff;
+  padding: 0.375rem;
+  margin-top: 0.375rem;
+  width: 100%;
+}
+
+/* 
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+/* Styling for the navigation button */
+.button-nav {
+  display: inline-block;
+  padding: 0.5rem;
+  color: white;
+  background-color: rgb(50,50,50);
+  text-decoration: none;
+  transition-property: background-color; 
+  transition-duration: 0.5s;
+}
+
+.button-nav:hover, .button-nav:focus {
+  background-color: rgb(200,200,200);
+}
+
+
+/* 
+  TEXT ELEMENTS -------------------
+*/
+
+
+
+
+/* 
+  COMBINED ELEMENTS -------------------
+*/

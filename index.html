@@ -2,36 +2,32 @@
 <html lang = "en">
   <head>
     <meta charset="utf-8">
-    <title>P01 - Style Guide Template</title>
+    <title>P03 - Emily Lin's Portfolio</title>
 
-    <link href="css/main.css" rel="stylesheet">
+    <link href="css/style-guide.css" rel="stylesheet">
 
   </head>
 
   <body>
 
     <header>
-      <h1>P01 - Style Guide Template</h1>
-      <p>A template you can use to start building out your own style guides with.</p>
+      <h1>P03 - Style Guide</h1>
     </header>
     
       <nav>        
-        <a href="#interactive_elements">Interactive Elements</a>
-        <a href="#text_elements">Text Elements</a>
-        <a href="#combined_elements">Combined Elements</a>
-        <a href="product_listing.html">Product Listing Template</a>
-        <a href="checkout.html">Checkout Template</a>
-        <a href="#citations">Citations</a>
+        <ul>
+            <a href = "portfolio.html">HOME</a> 
+            <a href="  archives.html">ARCHIVES</a>
+            <a href = "ContactMe.html">CONTACT ME</a> 
+        </ul>
       </nav>
-
 
     <!-- INTERACTIVE ELEMENTS SECTION // -->
     <section id="interactive_elements">
       <h2>Interactive Elements</h2>
 
-
       <section class="element"> 
-        <h3>In-text link</h3> <!--learned from prof. Andrew Hawryshkewich in IAT 235-->
+        <h3>In-text link</h3> 
         <a href = "https://www.google.com" target = "_blank"> Google's Homepage - link to an External Website</a><br>
       
         <a href = "#citations">In-text Citations - Link to another section of the website</a>
@@ -55,23 +51,10 @@
 
       </section>
 
-
       <section class="element">
-        <h3>Submit/Reset Buttons</h3> <!--https://www.w3schools.com/html/html_forms.asp - anything related to labels and inputs were drawn from this source
-        -->
-<!---
-        <form>
-        <input type = "submit" value = "Submit">
-        <input type = "reset" value = "Reset">
-        </form>
-      -->
-      </section>
-  
+        <h3>Contact Me Form</h3>
 
-
-      <section class="element">
-        <h3>Text Input Field with Label</h3>
-
+<!--
         <form>
           <fieldset class = "name-info">
           <label for = "firstName">First name:</label>
@@ -80,38 +63,26 @@
           <input type = "text" id = "lastName" name = "lName">
         </fieldset>
           </form>
+-->
 
       </section>
 
-
       <section class="element">
-        <h3>Radio Button with Label</h3>
+        <h3>Image as a Link</h3>  
 
-       <p> Choose your Favourite Primary Colour</p>
-<!---
-      <form>
-        <input type = "radio" id = "red" name = "fav_colour" value = "RED">
-        <label for = "red">Red</label>
-        <input type = radio id = "yellow" name = "fav_colour" value = "YELLOW">
-        <label for = "yellow">Yellow</label>
-        <input type = radio id = "blue" name = "fav_colour" value = "BLUE">
-        <label for = "blue">Blue</label>
-      </form>
-    -->
-    </section>
-
-      <section class="element">
-        <h3>Image as a Link</h3>  <!--https://pagedart.com/blog/linking-images-in-html/ - DREW REFERENCE FROM THIS SITE, 
-          but remembered to add alt attributes because of the validator-->
-
-          <a href = "https://en.wikipedia.org/wiki/Pug"> <!--https://www.rd.com/list/pug-pictures/ - images sourced from this site-->
-            <img src = "pug.jpeg" alt = "pug with happy expression running in a field of flowers">
+          <a href = "project-one.html"> 
+            <img src = "img/making-transporation-better.png" alt = "image of the project: making transportation better, consisting of an island with multiple modes of transporation">
           </a>
+
+          <a href = "project-two.html"> 
+            <img src = "img/waterBottleDesign.png" alt = "image of project:Water Purification Artifact, consisting of a white clay cylindrical shaped water bottle">
+          </a>
+
       </section>
 
 
     </section>
-    <!-- // INTERACTIVE ELEMENTS SECTION -->
+    <!-- // END OF INTERACTIVE ELEMENTS SECTION -->
 
 
 
@@ -120,9 +91,17 @@
       <h2>Text Elements</h2>
 
       <section class="element">
-        <h3>Headings</h3> <!--This was taught to me in IAT 235 from prof. Andrew Hawryshkewich-->
+        <h3>Headings</h3>
 
+
+        <h1>Emily Lin</h1>
+        <h1>Making Transportation Better</h1>
+        <h1>Water Purification Artifact</h1>
+        <h2>Making Transportation Better</h2>
+        <h2>Water Purification Artifact</h2>
         <h2>this is the second level of a heading</h2>
+
+
         <h3>this is the third level of a heading </h3>
         <h4>this is the fourth level of a heading </h4>
         <h5>this is the fifth level of a heading</h5>
@@ -130,25 +109,15 @@
       </section>
 
       <section class="element">
-        <h3>Paragraphs</h3> <!--This was also taught to me in IAT 235 from prof. Andrew Hawryshkewich-->
+        <h3>Paragraphs</h3>
       
         <p>This is an example of a paragraph. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur labore vel sequi praesentium incidunt officiis, fuga aliquid nesciunt assumenda. Porro consequatur architecto explicabo harum ex accusamus ipsum impedit deleniti accusantium. </p>
+    
       
-      </section>
-
-      <section class="element">
-        <h3>Numbered Lists</h3> <!--not part of exercise but also taught to me in IAT 235-->
-
-<ol>
-<li>Apple</li>
-<li>Banana</li>
-<li>Cherries</li>
-</ol>
-
       </section>
 
     </section>
-    <!-- // TEXT ELEMENTS SECTION -->
+    <!-- // END OF TEXT ELEMENTS SECTION -->
 
     <!-- COMBINED ELEMENTS SECTION // -->
     <section id="combined_elements">
@@ -156,22 +125,19 @@
 
       <section class="element">
         <h3>Main Navigation</h3>
-      </section>
 
-      <section class="element">
-        <h3>Product/Service Listing</h3>
-      </section>
+          <nav>        
+        <ul>
+            <a href = "portfolio.html">HOME</a> 
+            <a href="  archives.html">ARCHIVES</a>
+            <a href = "ContactMe.html">CONTACT ME</a> 
+        </ul>
+         </nav>
 
-      <section class="element">
-        <h3>Payment Form</h3>
-      </section>
-
-      <section class="element">
-        <h3>Checkout Cart</h3>
       </section>
 
     </section>
-    <!-- // COMBINED ELEMENTS SECTION -->
+    <!-- // END OF COMBINED ELEMENTS SECTION -->
 
     <section id="citations">
       <h2>Citations</h2>

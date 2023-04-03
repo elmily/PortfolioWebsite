@@ -4,8 +4,9 @@
 */
 
 * {
-  font-family: "Times New Roman"; /* this was drawn from resource: https://stackoverflow.com/questions/3942254/how-to-specify-font-attributes-for-all-elements-on-an-html-web-page */
-  box-sizing:border-box;
+    text-decoration: none;
+    background-color:black;
+    color:white;
 }
 
 body {
@@ -13,29 +14,17 @@ body {
   padding: 2rem;
 }
 
+code{
+    color:black;
+}
+
 .element {
   padding-bottom: 2rem;
   border-top-width: 0.15rem;
   border-top-style: solid;
-  border-top-color: black;
+  border-top-color: rgb(255, 255, 255);
 }
 
-a:hover{  /*learned from prof. Andrew Hawryshkewich in IAT 235*/
-color: brown;
-}
-
-a:focus {
-  color: forestgreen;
-}
-
-a:hover img { /*Reference for styling images: https://www.w3schools.com/css/css3_images.asp    */
-opacity: 50%
-
- }
-
-a:focus img{
-  border-radius: 50%
-}
 
 h2{ /* Add space between section elements - Reference: IAT 339: Lecture 02*/
 margin-bottom: 1rem;
@@ -44,11 +33,11 @@ margin-bottom: 1rem;
 
 h3 {
   margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom:2rem;
 }
 
 h4 {
-  margin-bottom: 0.25rem;
+  margin-bottom: 1.5rem;
 }
 
 
@@ -83,6 +72,12 @@ form{
   width: 240px;
 }
  /*Styling for labels and label elements: Reference: https://learn.shayhowe.com/html-css/building-forms/*/
+
+
+
+/*STYLING FOR BUTTON/NAVIGATION LINK*/
+
+/*END OF STYLING FOR BUTTON/NAVIGATION LINK*/
 
 
 /*Added border around the form*/
@@ -138,21 +133,40 @@ background:lightsteelblue;
   INTERACTIVE ELEMENTS -------------------
 */
 
-/* Styling for the navigation button */
-.button-nav {
-  display: inline-block;
-  padding: 0.5rem;
-  color: white;
-  background-color: rgb(50,50,50);
+/* Sample Styling for an In-Text Links */
+
+
+/*end of In-text Links */
+
+
+/* Styling for the navigation Link */
+
+.btn{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.75rem;
+  background-color:#fffff;
+  padding: 1rem 2rem;
+  text-align: center;
   text-decoration: none;
-  transition-property: background-color; 
-  transition-duration: 0.5s;
+  border-radius:0.5rem;
+  cursor: pointer;
+  border:1px white solid;
+  box-shadow: 0 0 10px rgba(0, 0, 0,0.1 );
 }
 
-.button-nav:hover, .button-nav:focus {
-  background-color: rgb(200,200,200);
+.btn:hover{
+  background: #5c5c5c;
+  transition: .5s;
+  color:#fff;
+}
+.btn a{
+  text-decoration: none;
 }
 
+/* Styling for Image as a Link */
+a:hover img { 
+    opacity: 50%
+ }
 
 /* 
   TEXT ELEMENTS -------------------
@@ -163,4 +177,84 @@ background:lightsteelblue;
 
 /* 
   COMBINED ELEMENTS -------------------
+
+/* STYLING FOR MAIN NAVIGATION*/
+
+nav   {
+    justify-content:flex-end;
+    align-items: center;
+    align-content:space-between;
+    flex-wrap:wrap;
+    display:flex;
+    
+    width:100%;
+    height:5rem;
+    background-color:#000000;
+    font-size:1.5rem;
+    font-family:ProximaNova;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-content:space-between;
+}
+
+nav a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  color:white;
+  margin-left:2rem;
+  margin-top:1.5rem;
+  margin-right:2rem;
+}
+
+nav a:hover{
+    color:#ffffff;
+}
+
+/*END OF MAIN NAVIGATION STYLING */
+/*STYLING FOR PROJECT LISTINGS */
+
+.project-container {
+    display:flex;  
+    justify-content: center;
+    flex-wrap:wrap;
+    flex-direction: column;
+    border: 1px black solid;
+    margin:4rem;
+}
+
+.project-container .group-1{
+    align-self:center;
+}
+
+.project-container .group-2 {
+    display:flex;  
+    justify-content: space-between;
+    align-items:baseline;
+    align-content:center;
+    flex-wrap:no-wrap;
+    flex-direction: row;
+    font-size:1.5rem;
+}
+
+.project-container .group-2 .item-2  {
+    font-size:3rem;
+}   
+
+
+.project-container .group-3  {
+    margin-top:1rem;
+}
+/*END OF PROJECT LISTING STYLING*/
+
+
+
+
+
+
+
+
 */

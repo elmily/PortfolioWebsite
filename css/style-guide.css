@@ -26,6 +26,8 @@ code{
 }
 
 
+
+
 h2{ /* Add space between section elements - Reference: IAT 339: Lecture 02*/
 margin-bottom: 1rem;
 }
@@ -46,6 +48,60 @@ p{
   margin-top: 1rem;
 }
 
+
+nav   {
+    justify-content:flex-end;
+    align-items: center;
+    align-content:space-between;
+    flex-wrap:wrap;
+    display:flex;
+    
+    width:100%;
+    height:5rem;
+    font-size:1.5rem;
+    font-family:sans-serif;
+
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-content:space-between;
+}
+
+nav li   {
+    list-style:none;
+    margin-top:1.5rem;
+    margin-right:2rem;
+    margin-left:2rem;
+}
+
+nav li a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  color:white;
+}
+
+nav li a::after{
+    content: "";
+    width:0;
+    height:0.2rem;
+    background-color:rgb(255, 255, 255);
+    margin:auto; 
+    display:block;
+}
+
+nav li a:hover::after{
+    width:100%;
+    transition:width 0.1s linear;
+} 
+
+li a:hover{
+color:#ffffff;
+}
+
+
 @media (max-width: 40rem){ /* learned from prof. Andrew Hawryshkewich in IAT 235*/
   p  {
     max-width: 90%;
@@ -53,10 +109,6 @@ p{
 }
 section {
   padding: 1.25rem
-}
-
-nav a:hover, nav a:focus {
-  text-decoration: none;
 }
 
 code {
@@ -179,40 +231,6 @@ a:hover img {
   COMBINED ELEMENTS -------------------
 
 /* STYLING FOR MAIN NAVIGATION*/
-
-nav   {
-    justify-content:flex-end;
-    align-items: center;
-    align-content:space-between;
-    flex-wrap:wrap;
-    display:flex;
-    
-    width:100%;
-    height:5rem;
-    background-color:#000000;
-    font-size:1.5rem;
-    font-family:ProximaNova;
-}
-
-nav ul {
-  display: flex;
-  flex-wrap: wrap;
-  align-content:space-between;
-}
-
-nav a {
-  font-size: 1.5rem;
-  font-weight: bold;
-  text-decoration: none;
-  color:white;
-  margin-left:2rem;
-  margin-top:1.5rem;
-  margin-right:2rem;
-}
-
-nav a:hover{
-    color:#ffffff;
-}
 
 /*END OF MAIN NAVIGATION STYLING */
 /*STYLING FOR PROJECT LISTINGS */

@@ -191,6 +191,7 @@ color:#f5f5f7;
 
 .footer-container .set-1    {
     display:flex;
+    flex:wrap;
     flex-direction:row;
     justify-content:center;
     align-content:center;

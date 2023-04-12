@@ -113,11 +113,17 @@ li a:hover{
 color:#f5f5f7;
 }
 
+/*styling for project-title*/
+.project-title-container    {
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
 .analysis-2-container   {
     display:flex;
     justify-content:center;
     align-content:center;
-    row-direction:column;
 }
 
 .contain-all    {
@@ -134,7 +140,6 @@ color:#f5f5f7;
     margin-bottom:5rem;
 }
 
-
 .process-2-container {
     display:flex;
     flex-direction:column;
@@ -146,18 +151,14 @@ color:#f5f5f7;
 
 }
 
-
-
 .process-3-container {
     display:flex;
-    //margin:auto;
     flex-direction:column;
     justify-content:space-around;
     align-self:flex-start;
     margin-top:5rem;
     align-items:center;
  
-
 }
 
 .process-images{
@@ -205,18 +206,7 @@ color:#f5f5f7;
     margin:2rem;
 }
 
-
-.project-title-container    {
-    display:flex;
-    justify-content:center;
-    flex-wrap:wrap;
-}
-
-
-footer  {
-     background-color:#1d1d1f;
-     color:#f5f5f7;
-}
+/*footer styling*/
 
 .footer-container{
       padding:0.5rem;
@@ -264,7 +254,7 @@ footer  {
     font-size:1.25rem;
     margin-bottom:0.25rem;
     color:#f5f5f7;
-       background-color:#1d1d1f;
+    background-color:#1d1d1f;
 }
 
 .footer-container a{
@@ -276,7 +266,7 @@ footer  {
 .footer-container a.active, a:hover {
   cursor:pointer;
 }
-
+/*footer styling*/
 
  @media(max-width:1024px)    {
 .footer-container{
